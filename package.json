@@ -1,0 +1,35 @@
+{
+  "name": "create-fe-templates",
+  "version": "1.0.0",
+  "description": "scaffold only for myself",
+  "type": "module",
+  "license": "MIT",
+  "author": "Kit Yeung",
+  "bin": {
+    "create-fe-templates": "index.js",
+    "cva": "index.js"
+  },
+  "files": [
+    "index.js",
+    "template-*",
+    "dist"
+  ],
+  "engines": {
+    "node": "^16.0.0 || >=18.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "@types/minimist": "^1.2.5",
+    "@types/node": "^20.9.0",
+    "@types/prompts": "^2.4.8",
+    "cross-spawn": "^7.0.3",
+    "kolorist": "^1.8.0",
+    "minimist": "^1.2.8",
+    "prompts": "^2.4.2",
+    "typescript": "^5.2.2",
+    "unbuild": "^2.0.0"
+  }
+}
